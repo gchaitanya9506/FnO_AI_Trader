@@ -1,0 +1,26 @@
+# Core
+python-dotenv
+requests
+pandas
+numpy
+
+# Websocket + Upstox
+websocket-client
+certifi
+
+# Protobuf decoding (Upstox feed)
+protobuf
+grpcio-tools
+
+# Technical indicators
+ta
+
+# ML (future step C)
+scikit-learn
+joblib
+
+# Telegram alerts
+urllib3
+
+# Db Driver
+sqlalchemy

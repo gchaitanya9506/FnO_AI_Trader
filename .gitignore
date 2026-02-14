@@ -1,0 +1,10 @@
+.env
+market_data.db
+data_ingestion/proto/market_data_pb2.py
+data_ingestion/proto/__pycache__
+data_ingestion/proto/__init__.py
+data_ingestion/__pycache__
+data_ingestion/__init__.py
+config/__pycache__
+execution/__pycache__
+database/__pycache__
