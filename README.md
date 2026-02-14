@@ -41,8 +41,8 @@ Before you begin, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/fo-ai-trader.git
-cd fo-ai-trader
+git clone https://github.com/your-username/FnO_AI_Trader.git
+cd FnO_AI_Trader
 ```
 
 ### 2. Create Virtual Environment
@@ -160,7 +160,7 @@ The application will:
 ## 📁 Project Structure
 
 ```
-fo-ai-trader/
+FnO_AI_Trader/
 ├── app.py                          # Main application entry point
 ├── requirements.txt                 # Python dependencies
 ├── .env                            # Environment configuration (not in git)
