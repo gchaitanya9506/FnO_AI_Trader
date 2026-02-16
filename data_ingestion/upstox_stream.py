@@ -8,7 +8,7 @@ from database.save_candle import insert_candle
 from data_ingestion.tick_decoder import extract_ltp
 from data_ingestion.candle_builder import CandleBuilder
 from strategy.signal_engine import generate_signal
-from execution.telegram import send_telegram
+from execution.telegram import send
 from execution.message_formatter import format_signal
 
 load_dotenv()
@@ -69,7 +69,7 @@ def on_message(ws, message):
             if signal:
                 msg = format_signal(signal)
                 print(msg)
-                send_telegram(msg)
+                send(msg)
 
 
 # STEP 4 — Errors
